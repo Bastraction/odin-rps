@@ -1,0 +1,25 @@
+*{
+    background-color: #475c6c;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 5%;
+    color: whitesmoke;
+    background-color: #8a8583;
+    border-radius: 10px;
+    border: 1px #8a8583 solid;
+
+    justify-content: center;
+    align-items: center;
+}
