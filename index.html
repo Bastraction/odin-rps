@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
     <title>Odin RPS</title>
 </head>
 <body>
 
     <div class="center">
-        Right click and inspect element to play within the console!
+
+        <div class="scores scores_bg">
+            <div id="player_score" class="scores_bg">Player Score: 0</div>
+            <div id="cpu_score" class="scores_bg">CPU Score: 0</div>
+        </div>
+
+        <div class="p_buttons">
+            <button id="rock" class="player_button">Rock</button>
+            <button id="paper" class="player_button">Paper</button>
+            <button id="scissors" class="player_button">Scissors</button>
+        </div>
+
+        <div id="cpu_throw" class="player_button">CPU</div>
     </div>
-    <div class="center">
-        Right click and inspect element to play within the console!
+
+    <div class="logger">
+        <div id="logger_window">
+            <div class="log_item log_title">== LOGGER WINDOW -- DISPLAYS WINS AND LOSSES -- ==</div>
+        </div>
     </div>
     
 </body>
